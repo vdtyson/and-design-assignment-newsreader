@@ -1,13 +1,12 @@
-package com.example.newsreader.ui
+package com.example.newsreader
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.newsreader.R
 
-class SignInActivity : AppCompatActivity() {
+class ListPage : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_sign_in)
+        setContentView(R.layout.activity_list_page)
     }
 }
