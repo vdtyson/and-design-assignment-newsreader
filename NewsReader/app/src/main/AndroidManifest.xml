@@ -11,7 +11,13 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme"
             tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ListPage">
+        <activity
+                android:theme="@style/Theme.MaterialComponents.NoActionBar"
+                android:name=".DetailPage">
+        </activity>
+        <activity
+                android:name=".ListPage"
+                android:theme="@style/Theme.MaterialComponents.NoActionBar">
         </activity>
         <activity
                 android:name=".MainActivity"
